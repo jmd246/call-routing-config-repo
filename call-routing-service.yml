@@ -1,6 +1,8 @@
 server:
   port: 8082
-
+app:
+  queue:
+    call-routing: call-routing.queue
 spring:
   application:
     name: call-routing-service
